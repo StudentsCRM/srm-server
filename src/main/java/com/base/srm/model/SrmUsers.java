@@ -9,13 +9,6 @@ public class SrmUsers {
     public String createdOn;
     public String userId;
 
-    public SrmUsers(String user_name, String password) {
-        this.user_name = user_name;
-        this.password = password;
-    }
-
-    public SrmUsers() {
-    }
 
     public long getId() {
         return id;
