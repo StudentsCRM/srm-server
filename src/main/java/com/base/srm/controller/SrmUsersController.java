@@ -34,9 +34,9 @@ public class SrmUsersController {
     }
 
 
-    @GetMapping("/login/{user_name}/{password}")
-    public ResponseEntity<ResponseModel> getSrmLoginUser(@PathVariable("user_name") String user_name,
-                                                         @PathVariable("password") String password) {
+    @GetMapping("/login")
+    public ResponseEntity<ResponseModel> getSrmLoginUser(@RequestParam("user_name") String user_name,
+                                                         @RequestParam("password") String password) {
         try {
 
             List<SrmUsers> srmUsersList = new ArrayList<>();

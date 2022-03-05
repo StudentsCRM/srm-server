@@ -22,7 +22,7 @@ public class SrmApplication implements CommandLineRunner {
 
 	@Override
     public void run(String... args) throws Exception {
-            System.out.println("A new row has been inserted");
+
     }
 
 }
